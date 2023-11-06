@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Azkar</title>
+    <link rel="stylesheet" href="css/zkr.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/all.min.css">
+</head>
+<style>
+    
+    .btn {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    } 
+    
+    .btn button {
+        display: inline-block;
+        font-size: 30px;
+        font-weight: bold;
+        padding: 5px 15px;
+        border-radius: 6px;
+        border: none;
+        background-image: linear-gradient(150deg , pink , violet);
+        color: white;
+    }
+</style>
+<body>
+    <audio controls>
+        <source src="mp3/mp3.mp3">
+    </audio>
+    <div class="container">
+        <div class="group">
+        <div class="box active">
+            <p class="zkr">سبحان الله</p>
+            <span   data-active="sobhan-allah" class="span">33</span>
+        </div>
+        <div class="btn">
+            <button class="add">+</button>
+            <button class="minus">-</button>
+        </div>
+        </div>
+        <div class="group">
+        <div class="box">
+            <p class="zkr">الحمد لله</p>
+            <span  data-active="alhamd-l-allah" class="span">33</span>
+        </div>
+        <div class="btn">
+            <button class="add">+</button>
+            <button class="minus">-</button>
+        </div>
+    </div>
+    <div class="group">
+        <div class="box">
+            <p class="zkr">الله أكبر</p>
+            <span  data-active="allah-akbr" class="span">33</span>
+        </div>
+        <div class="btn">
+            <button class="add">+</button>
+            <button class="minus">-</button>
+        </div>
+    </div>
+    <div class="group">
+        <div class="box">
+            <p class="zkr">سبحان الله وبحمده</p>
+            <span  data-active="sobhan-behmdh" class="span">100</span>
+        </div>
+        <div class="btn">
+            <button class="add">+</button>
+            <button class="minus">-</button>
+        </div>
+    </div>
+    <div class="group">
+        <div class="box">
+            <p class="zkr">لا اله الا الله وحده لا شريك له الملك وله الحمد وهو علي كل شئ قدير</p>
+            <span  data-active="allah" class="span">100</span>
+        </div>
+        <div class="btn">
+            <button class="add">+</button>
+            <button class="minus">-</button>
+        </div>
+    </div>
+    <div class="group">
+        <div class="box">
+            <p class="zkr">استغفر الله العظيم</p>
+            <span  data-active="astgfr" class="span">70</span>
+        </div>
+        <div class="btn">
+            <button class="add">+</button>
+            <button class="minus">-</button>
+        </div>
+    </div>
+    <div class="group">
+        <div class="box long-box">
+            <p class="zkr">اللهم صلي وسلم وبارك علي نبينا محمد</p>
+            <span  data-active="saly" class="span">10</span>
+        </div>
+        <div class="btn">
+            <button class="add">+</button>
+            <button class="minus">-</button>
+        </div>
+    </div>
+    <div class="group">
+        <div class="box" >
+            <p class="zkr">حسبي الله لا اله الا هو عليه توكلت</p>
+            <span  data-active="hasbya" class="span">7</span>
+            
+        </div>
+        <div class="btn">
+            <button class="add">+</button>
+            <button class="minus">-</button>
+            </div>
+    </div>  
+    </div>
+    <script src="js/zkr.js"></script>
+</body>
+</html>
